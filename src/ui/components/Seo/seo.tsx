@@ -1,0 +1,19 @@
+/* eslint-disable react/no-unescaped-entities */
+'use client'
+import Head from "next/head"
+interface Props {
+    title:string
+    description: string
+}
+
+ const Seo = ({title,description}:Props)=>{
+    return <>
+        <Head>
+            <title>{title}</title>
+            <meta name="description" content={description}/>   
+            <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        </Head>
+    </>
+}
+
+export default Seo

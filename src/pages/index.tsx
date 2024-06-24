@@ -5,7 +5,6 @@ import Container from "@/ui/components/container/container";
 import AboutSection from "@/ui/modules/Clients/A propos/about";
 import HomeSection from "@/ui/modules/Clients/Acceuil/home";
 import OurPortfolio from "@/ui/modules/Clients/Porfolio/PorfolioView";
-import ContactSection from "@/ui/modules/Clients/contact/contactSection";
 import Section2 from "@/ui/modules/Clients/features/featureSection2";
 import FeedBackSection from "@/ui/modules/Clients/feedback/feedbackSection";
 import FooterSection from "@/ui/modules/Clients/footer/footerSection";
@@ -25,7 +24,6 @@ const HomePage: React.FC = () => {
         <Section2/>
         <OurPortfolio/>
         <FeedBackSection/>
-        {/* <ContactSection/> */}
         <FooterSection/>
       </Container>
     </>
